@@ -1,12 +1,13 @@
 main()
 {
-    int x,y,z;
-    printf("Input a digit in x\n");
-    scanf("%d",&x);
-    printf("Input a digit in y\n");
-    scanf("%d",&y);
-    z=y;
-    y=x;
-    x=z;
-    printf("x=%d and y=%d",x,y);
+    int a,b,c;
+    printf("input a number:");
+    scanf("%d",&a);
+    printf("input another number:");
+    scanf("%d",&b);
+
+    c=b;
+    b=a;
+    a=c;
+    printf("inverse : %d%d",a,b);
 }

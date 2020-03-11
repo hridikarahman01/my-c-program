@@ -1,11 +1,11 @@
 main()
 {
-    int a,b,c,d,e;
-    scanf("%d",&a);
-    b=a/100; //1
-    c=a%100; //23
-    d=c/10; //2
-    e=c%10; //3
+    int a,b,c,d;
+    scanf("%d%d%d",&a,&b,&c);
+    d=a;
+    a=b;
+    b=c;
+    a=d;
 
-    printf("%d%d%d",e,d,b);
+    printf("%d%d%d",&c,&b,&a);
 }

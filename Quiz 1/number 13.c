@@ -1,18 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
+#include<stdio.h>
+main()
 {
-    int x, y, z, result, max;
-    printf("\nInput the first integer: ");
-    scanf("%d", &x);
-    printf("\nInput the second integer: ");
-    scanf("%d", &y);
-    printf("\nInput the third integer: ");
-    scanf("%d", &z);
-    result=(x+y+abs(x-y))/2;
-    max=(result+z+abs(result-z))/2;
-    printf("\nMaximum value of three integers: %d", max);
-	printf("\n");
-    return 0;
+    int a,b,c,maximum,result;
+    printf("Input the first integer:");
+    scanf("%d",&a);
+    printf("Input the second integer:");
+    scanf("%d",&b);
+    printf("Input the third integer:");
+    scanf("%d",&c);
+
+    result = (a+b+abs(a-b))/2;
+    maximum = ((result+c)+abs(result-c))/2;
+
+    printf("Maximux value of three integer: %d",maximum);
+
 }
