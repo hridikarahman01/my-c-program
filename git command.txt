@@ -1,0 +1,4 @@
+git add . //add all changes to local git folder
+git status // to know the status of file changes(edit, del, update)
+git commit -m 'name for changes' // commenting about changes
+git push origin master // upload to master branch at git server
